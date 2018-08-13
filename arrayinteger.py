@@ -7,6 +7,6 @@ n=int(input(""))
 k=int(input(""))
 for i in range(0,n):
  print(a[i])
- for i in range(o,k):
+for i in range(o,k):
   sum=sum+a[i]
 print("Output:",sum)
