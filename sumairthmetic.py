@@ -1,7 +1,7 @@
 def sumOfAP( A,D,N) :
     sum = 0
     i = 0
-    while i < n :
+    while i < N :
         sum = sum + A
         A=A+D
         i = i + 1
