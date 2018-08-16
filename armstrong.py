@@ -9,6 +9,6 @@ while temp > 0:
 
 
 if N == sum:
-   print("Yes")
+   print("yes")
 else:
    print("no")
