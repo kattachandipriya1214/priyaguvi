@@ -1,5 +1,5 @@
 N=str(input(""))
 if N.isdigit():
-	print("Yes")
+	print("yes")
 else:
 	print("No")
