@@ -1,6 +1,5 @@
-st = []
-num = int(input(""))
-for n in range(num):
-	numbers = int(input(""))
-	lst.append(numbers)
-	print(min(lst))
+n=int(input())
+arr=input()
+l=list(map(int,arr.split(' ')))
+n=len(l)
+print(min(l))
