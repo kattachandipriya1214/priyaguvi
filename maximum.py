@@ -1,7 +1,5 @@
-a=[]
-n=int(input(""))
-for i in range(1,n+1):
-    b=int(input(""))
-    a.append(b)
-a.sort()
-print(a[n-1])
+n=int(input())
+arr=input()
+l=list(map(int,arr.split(''))
+n=len(l)
+print(max(l))
