@@ -1,0 +1,7 @@
+n=int(input())
+arr=input()
+l=list(map(int,arr.split(' ')))
+n=len(l)
+l.sort()
+m=(str(l)[1:-1])
+print(m.replace(',',''))
