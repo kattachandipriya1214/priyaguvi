@@ -1,7 +1,7 @@
-string=input(" ")
-char=0
-word=1
-for i in string:
-      char=char+1
-      
-print(char)
+def main():
+    full_name = input("").split()
+    total = 0
+    for x in full_name:
+        total += len(x)
+    print(total)
+main()
