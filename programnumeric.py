@@ -1,4 +1,4 @@
-string=input("Enter string:")
+string=input("")
 count1=0
 count2=0
 for i in string:
