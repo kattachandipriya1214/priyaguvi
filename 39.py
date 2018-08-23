@@ -1,4 +1,4 @@
-a=input()
-b=list(map(int,a.split(' ')))
-b.sort()
-print(b[len(b)-1])
+r=input()
+s=list(map(int,r.split(' ')))
+s.sort()
+print(s[len(s)-1])
