@@ -1,6 +1,7 @@
-a=input()
-l=list(map(int,a.split(' ')))
-x=l[0]
-y=l[1]
-x,y=y,x
-print(x,y)
+c=input()
+p=list(map(int,c.split(' ')))
+r=p[0]
+s=p[1]
+r,s=s,r
+print(r,s)
+
