@@ -2,5 +2,7 @@ a=input()
 l=list(map(int,a.split(' ')))
 x=l[0]
 y=l[1]
-x,y=y,x
+temp=x
+x=y
+y=temp
 print(x,y)
