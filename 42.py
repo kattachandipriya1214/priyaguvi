@@ -1,0 +1,9 @@
+string1=input().split()
+if(len(string1[0])>len(string1[1])):
+    print(string1[0])
+elif(len(string1[1])>len(string1[0])):
+    print(string1[1])
+elif(len(string1[0])==len(string1[1])):
+    print(string1[1])
+else:
+    print(string1[0])
