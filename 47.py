@@ -1,0 +1,5 @@
+r1=int(input())
+arr=input()
+s1=list(map(int,arr.split(' ')))
+r1=len(s1)
+print(min(s1),max(s1))
