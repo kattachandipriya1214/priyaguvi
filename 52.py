@@ -1,3 +1,3 @@
 i=int(input())
-numbers = "zero one two three four five six seven eight nine".split()
+numbers = "Zero One Two Three Four Five Six Seven Eight Nine".split()
 print(numbers[i])
